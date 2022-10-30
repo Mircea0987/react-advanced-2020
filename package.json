@@ -12,8 +12,9 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build && next export",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

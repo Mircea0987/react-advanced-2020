@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react";
+import UseState from "./tutorial/1-useState/setup/3-useState-array";
 function App() {
   return (
-    <div className='container'>
-      <h2>Advanced Tutorial</h2>
+    <div className="container">
+      <UseState />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
